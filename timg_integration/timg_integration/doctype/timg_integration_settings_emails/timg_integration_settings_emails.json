@@ -1,0 +1,35 @@
+{
+ "creation": "2020-12-03 09:34:38.757815",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "email",
+  "is_active"
+ ],
+ "fields": [
+  {
+   "fieldname": "email",
+   "fieldtype": "Text",
+   "in_list_view": 1,
+   "label": "Email"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_active",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Is active?"
+  }
+ ],
+ "istable": 1,
+ "modified": "2020-12-03 09:35:24.129938",
+ "modified_by": "Administrator",
+ "module": "Timg Integration",
+ "name": "TIMG Integration Settings Emails",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

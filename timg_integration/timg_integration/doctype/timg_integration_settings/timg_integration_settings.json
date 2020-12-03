@@ -1,0 +1,52 @@
+{
+ "creation": "2020-12-03 11:02:35.134564",
+ "doctype": "DocType",
+ "document_type": "Setup",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_01",
+  "email_notification_enabled",
+  "emails"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_01",
+   "fieldtype": "Section Break",
+   "label": "Email Notification Settings"
+  },
+  {
+   "default": "0",
+   "fieldname": "email_notification_enabled",
+   "fieldtype": "Check",
+   "label": "Email Notification Enabled"
+  },
+  {
+   "fieldname": "emails",
+   "fieldtype": "Table",
+   "label": "Emails",
+   "options": "TIMG Integration Settings Emails"
+  }
+ ],
+ "issingle": 1,
+ "modified": "2020-12-03 11:02:35.134564",
+ "modified_by": "Administrator",
+ "module": "Timg Integration",
+ "name": "TIMG Integration Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
