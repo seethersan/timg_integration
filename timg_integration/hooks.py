@@ -84,7 +84,8 @@ doc_events = {
 		"on_trash": "timg_integration.timg_integration.integrations.send_email_notification"
 	},
     "Item": {
-        "on_trash": "timg_integration.timg_integration.integrations.send_email_notification"
+        "on_trash": "timg_integration.timg_integration.integrations.send_email_notification",
+        "before_insert": "timg_integration.timg_integration.integrations.send_item_information",
     }
 }
 
